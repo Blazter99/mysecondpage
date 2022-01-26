@@ -1,7 +1,8 @@
 * {box-sizing: border-box;
 }
 
-#header {background-color:#000;     
+#header {background-color:#000;
+         position:sticky;     
 }
 
 
@@ -19,9 +20,48 @@
              border: 1px solid black;          
 }
 
+.clearleft {clear:left;}
+
+
+.infosection {border: 1p solid black;
+
+}
+
+.infotop {width:100%;
+          background-color:skyblue;
+          border: 1px solid skyblue;
+          color:white;
+          text-align:center;
+}
+
+.infoleft {float:left;
+           width:20%;
+           padding: 23% 0%;
+           border: 1px solid darkred;
+           background-image:url(../images/1132491.jpg);
+           background-size: cover;  
+}
+
+.inlineblock
+
+.infomiddle {float:left;
+             width:60%;
+             text-align:left;           
+}
+
+.infomiddle h3 {text-align:center;
+}
+
+.inforight {float:left;
+            width:20%;
+}
+
 body {
     font-family:sans-serif,helvetica;
     font-size:16px;
     background-repeat:no-repeat;
     margin:0;
 }
+
+
+
