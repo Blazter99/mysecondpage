@@ -1,7 +1,7 @@
 * {box-sizing: border-box;
 }
 
-#header {background-color:#000;
+#header {background-color:#000;     
 }
 
 
@@ -10,11 +10,13 @@
        background-color:red;
        width:10%;
        text-align:center;
+       padding:5px;
+       border-bottom: 1px solid red;            
 }
 .headertext {color:white;
              text-align:center;
              width:90%;
-             border: 1px solid black;
+             border: 1px solid black;          
 }
 
 body {
