@@ -78,6 +78,27 @@
 
 .inforight p {font-size:150%;}
 
+.imgleft {float:left;
+          width:33.33%;
+          padding:10%;
+          background-image:url(../images/1366_2000.jpg);
+          background-size:cover;
+}
+
+.imgmiddle {float:left;
+            width:33.33%;
+            padding:10%;
+            background-image:url(../images/bo-chen-arcane-jinx-detail01.jpg);
+            background-size:cover;
+}
+
+.imgright {float:left;
+           width:33.33%;
+           padding:10%;
+           background-image:url(../images/51028_2knu.jpg);
+           background-size:cover;
+}
+
 body {
     font-family:sans-serif,helvetica;
     font-size:16px;
