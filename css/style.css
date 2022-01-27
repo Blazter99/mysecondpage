@@ -9,16 +9,17 @@
 .home {float:left;
        color:white;
        background-color:red;
-       width:10%;
-       text-align:center;
+       cursor:pointer;
+       border:1px solid red;
        padding:1%;
-       border-bottom: 1px solid red;            
+       text-align:center;
+       width:10%;       
 }
 .headertext {color:white;
              text-align:center;
              width:90%;
              border: 1px solid black;          
-}
+            }
 
 .clearleft {clear:left;}
 
@@ -39,7 +40,7 @@
 .infoleft {float:left;
            width:33.33%;
            height:450px;
-           border:1px solid grey;
+           border:1px solid rgb(50,150,255);
            text-align:center;
            background-color:rgb(50,150,255);
            color:white;
@@ -55,7 +56,7 @@
 .infomiddle {float:left;
              width:33.33%;
              height:450px;
-             border:1px solid grey;
+             border:1px solid rgb(50,150,255);
              text-align:center;
              background-color:rgb(50,150,255);
              color:white;          
@@ -70,7 +71,7 @@
 .inforight {float:left;
             width:33.33%;
             height:450px;
-            border: 1px solid grey;
+            border: 1px solid rgb(50,150,255);
             text-align:center;
             background-color:rgb(50,150,255);
             color:white;
@@ -98,6 +99,17 @@
            background-image:url(../images/51028_2knu.jpg);
            background-size:cover;
 }
+
+.bottom {width:100%;
+         padding:3%;
+         border:1px solid darkslategrey;
+         background-image:url(../images/tumblr_8158826611dc6ee73303bd3f910e3518_318f332a_1280.gif);
+         background-size:cover;
+         background-repeat:no-repeat;
+}
+
+
+
 
 body {
     font-family:sans-serif,helvetica;
