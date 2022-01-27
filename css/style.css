@@ -11,7 +11,7 @@
        background-color:red;
        width:10%;
        text-align:center;
-       padding:5px;
+       padding:1%;
        border-bottom: 1px solid red;            
 }
 .headertext {color:white;
@@ -35,29 +35,34 @@
 
 .infoleft {float:left;
            width:33.33%;
-           padding:15% 0%;
-           border:1px solid red;
-           background-image:url(../images/bo-chen-arcane-jinx-detail01.jpg);
-           background-size:cover;
-           background-repeat:no-repeat;
-        }
+           height:400px;
+           border:1px solid grey;
+           text-align:center;
+}
+
+.infoleft p {font-size:150%;}
+
        
-.inlineblock
+
+.clearleft {clear:left;}
 
 .infomiddle {float:left;
              width:33.33%;
-             padding: 15% 0%;
-             border-right: 1px solid blue;             
+             height:400px;
+             border:1px solid grey;
+             text-align:center;          
+             
+            }
+
+.infomiddle p {text-align:center;
+               font-size:150%;
 }
 
-.infomiddle h3 p {text-align:center;
-}
 
 .inforight {float:left;
             width:33.33%;
-            padding:15% 0%;
-            background-image:url(../images/150px-Blood_Moon_Jhin_WR_loading.jpg);
-            border: 1px solid black;
+            height:400px;
+            border: 1px solid grey;
 }
 
 body {
@@ -65,6 +70,10 @@ body {
     font-size:16px;
     background-repeat:no-repeat;
     margin:0;
+}
+
+h3 {font-weight:bolder;
+    font-size:200%;
 }
 
 
