@@ -23,7 +23,7 @@
 .clearleft {clear:left;}
 
 
-.infosection {             
+.infosection { color:black;          
 }
 
 .infotop {width:100%;
@@ -38,7 +38,7 @@
 
 .infoleft {float:left;
            width:33.33%;
-           height:400px;
+           height:450px;
            border:1px solid grey;
            text-align:center;
            background-color:rgb(50,150,255);
@@ -54,7 +54,7 @@
 
 .infomiddle {float:left;
              width:33.33%;
-             height:400px;
+             height:450px;
              border:1px solid grey;
              text-align:center;
              background-color:rgb(50,150,255);
@@ -69,7 +69,7 @@
 
 .inforight {float:left;
             width:33.33%;
-            height:400px;
+            height:450px;
             border: 1px solid grey;
             text-align:center;
             background-color:rgb(50,150,255);
